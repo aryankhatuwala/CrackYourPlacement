@@ -4,7 +4,7 @@ public:
         int n=nums.size();
         int i=0,j=1,ans=0;
         sort(nums.begin(),nums.end());
-        set<pair<int,int>>st;
+        // set<pair<int,int>>st;
         while(j<n)
         {
             int diff=nums[j]-nums[i];
@@ -12,12 +12,13 @@ public:
                 j++; 
                 continue;
             }
-            if(diff==k and 
-            st.find({min(nums[i],nums[j]),max(nums[i],nums[j])})==st.end()) 
+            if(diff==k) 
             {
-                cout<<nums[i]<<" "<<nums[j]<<endl;
-                st.insert({min(nums[i],nums[j]),max(nums[i],nums[j])});
-                ans++; i++;j++;
+
+                ans++; 
+                i++;j++;
+                while(i<n and nums[i]==nums[i-1])i++;
+                while(j<n and nums[j]==nums[j-1])j++;
             }
             else if(diff<k)
             j++;
