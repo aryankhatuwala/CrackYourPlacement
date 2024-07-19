@@ -21,9 +21,8 @@ public:
             }
             else if(diff<k)
             j++;
-            else if(diff>k) 
+            else 
             i++;
-            else j++;
         }
         return ans;
     }
