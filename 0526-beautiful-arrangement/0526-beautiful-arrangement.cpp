@@ -4,9 +4,7 @@ public:
     {
         if(place==n+1) return 1;
 
-        // if(num==n+1) return 0;
-
-        int inc=0,notinc=0;
+        int inc=0;
         for(int k=1;k<=n;k++)
         {
             if((k%place==0 or place%k==0) and used[k]!=1)
@@ -16,7 +14,7 @@ public:
             used[k]=0;
             }
         }
-        return inc+notinc;
+        return inc;
     }
     int countArrangement(int n) {
         vector<int>used(n+1,0);
