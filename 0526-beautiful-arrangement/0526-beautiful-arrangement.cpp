@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int func(int place, int n,vector<int>used)
+    int func(int place, int n,vector<int>&used)
     {
         if(place==n+1) return 1;
 
