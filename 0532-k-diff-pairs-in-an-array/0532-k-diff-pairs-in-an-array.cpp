@@ -1,31 +1,21 @@
 class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
-        if (k < 0) return 0; // Since k must be non-negative
-
-        map<int, int> mp;
-        set<pair<int, int>> st;
-        
-        for (int num : nums) {
-            mp[num]++;
-        }
-        
-        int ans = 0;
-        for (const auto& p : mp) {
-            int x = p.first;
-            int temp = x - k;
-            
-            if (k == 0) {
-                if (mp[x] > 1) {
-                    ans++;
-                }
-            } else {
-                if (mp.find(temp) != mp.end()) {
-                    st.insert({min(x, temp), max(x, temp)});
-                }
+        unordered_map<int,int> a;
+        for(int i:nums)
+            a[i]++;
+        int ans=0;
+        for(auto x:a)
+        {
+            if(k==0)
+            {    
+                if(x.second>1)
+                ans++;
             }
+             else if(a.find(x.first+k)!=a.end())
+                ans++;
         }
         
-        return k == 0 ? ans : st.size();
+        return ans;
     }
 };
