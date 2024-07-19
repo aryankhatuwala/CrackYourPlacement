@@ -9,7 +9,7 @@ public:
         return count;
     }
     int findDuplicate(vector<int>& nums) {
-        // sort(nums.begin(),nums.end());
+
         int n=nums.size();
         int low=1, high=n-1;
 
