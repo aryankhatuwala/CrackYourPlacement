@@ -1,21 +1,30 @@
 class Solution {
 public:
-    int findDuplicate(vector<int>& nums) {
-        int n=nums.size();
-        int slow=nums[0], fast=nums[0];
-         
-        //he initial values of slow and fast are the same, so the loop condition should ensure they move at least once before comparing.
-         do {
-            slow = nums[slow];
-            fast = nums[nums[fast]];
-        } while (slow != fast);
+    int findSmaller(int x, vector<int>& nums){
+        int count=0;
+        for(auto it:nums)
+        if(it<x)
+        count++;
 
-        int temp=nums[0];
-        while(temp!=slow)
+        return count;
+    }
+    int findDuplicate(vector<int>& nums) {
+        // sort(nums.begin(),nums.end());
+        int n=nums.size();
+        int low=1, high=n-1;
+
+        while(low<=high)
         {
-            slow=nums[slow];
-            temp=nums[temp];
+            int mid=(low+high)/2;
+
+            int count=findSmaller(mid,nums);
+            if(count<mid)
+            {
+                low=mid+1;
+            }
+            else if(count>=mid)
+             high=mid-1;
         }
-        return slow;
+        return high;
     }
 };
