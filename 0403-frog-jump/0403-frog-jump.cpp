@@ -16,13 +16,15 @@ public:
         two=func(pos+ k-1,k-1,stones,n,st,mp);
         three=func(pos+ k+1,k+1,stones,n,st,mp);
         
-        return  mp[{pos,k}]= one||two||three;
+        return  mp[{pos,k}]= one|two|three;
     }
     bool canCross(vector<int>& stones) {
         int n=stones.size();
         set<int>st(stones.begin(),stones.end());
         map<pair<int,int>,bool>mp;
+
         if(stones[1]!=1) return 0;
+
         return func(1,1,stones,n,st,mp);
     }
 };
