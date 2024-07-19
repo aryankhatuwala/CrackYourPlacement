@@ -1,30 +1,31 @@
 class Solution {
 public:
-    bool func(int pos,int k, vector<int>& stones, int n,set<int>&st,
-     map<pair<int,int>,bool>&mp )
-    {
-        if(pos==stones[n-1]) return true;
-        if(pos>stones[n-1] || k<=0 || pos<0) return false;
+    bool solve(map<int, int> &mp, vector<int>& stones, int last, int k, vector<vector<int>> &dp){
+        int num = stones[last] + k;
+        if(num == stones.back()) return true;
+        if(mp.find(num) == mp.end()) return false;
 
-        if(mp.find({pos,k})!=mp.end())return mp[{pos,k}];
+        if(dp[last][k] != -1) return dp[last][k];
 
-        if(st.find(pos)==st.end()) return false;
+        int idx = mp[num];
+        bool ans;
 
-        bool one,two,three;
-        one=two=three=false;
-        one=func(pos+ k,k,stones,n,st,mp);
-        two=func(pos+ k-1,k-1,stones,n,st,mp);
-        three=func(pos+ k+1,k+1,stones,n,st,mp);
-        
-        return  mp[{pos,k}]= one|two|three;
+        ans = solve(mp, stones, idx, k+1, dp);
+        ans = ans || solve(mp, stones, idx, k, dp);
+        if(k > 1){
+            ans = ans || solve(mp, stones, idx, k-1, dp);
+        }
+
+        return dp[last][k] = ans;
     }
+
     bool canCross(vector<int>& stones) {
-        int n=stones.size();
-        set<int>st(stones.begin(),stones.end());
-        map<pair<int,int>,bool>mp;
+        map<int, int> mp;
+        for(int i=0; i<stones.size(); i++){
+            mp[stones[i]] = i;
+        }
 
-        if(stones[1]!=1) return 0;
-
-        return func(1,1,stones,n,st,mp);
+        vector<vector<int>> dp(stones.size(), vector<int>(stones.size(), -1));
+        return solve(mp, stones, 0, 1, dp);
     }
 };
