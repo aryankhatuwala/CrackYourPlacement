@@ -1,22 +1,25 @@
 class Solution {
 public:
     vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
-        int n=rowSum.size();
-        int m=colSum.size();
-        vector<vector<int>>mat(n,vector<int>(m));
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<m;j++)
-            {
-                if(rowSum[i]<colSum[j])
-                    mat[i][j]=rowSum[i];
-                else 
-                mat[i][j]=colSum[j];
+        int numRows = rowSum.size();
+        int numCols = colSum.size();
+        vector<vector<int>> result(numRows, vector<int>(numCols, 0));
 
-                rowSum[i]-=mat[i][j];
-                colSum[j]-=mat[i][j];
-            }
+        int i = 0, j = 0;
+
+        while (i < numRows && j < numCols) {
+            int val = min(rowSum[i], colSum[j]);
+            result[i][j] = val;
+            rowSum[i] -= val;
+            colSum[j] -= val;
+
+            if (rowSum[i] == 0) 
+                i++;
+            
+            if (colSum[j] == 0) 
+                j++;
+            
         }
-        return mat;
+        return result;
     }
 };
