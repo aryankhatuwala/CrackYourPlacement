@@ -22,7 +22,7 @@ struct cmp{
             auto adjNode=it.first, adjW=it.second;
             if(d+adjW < dist[adjNode])
             {
-                dist[adjNode]=dist[node]+adjW;
+                dist[adjNode]=d+adjW;
                 q.push({adjNode,dist[adjNode]});
             }
         }
