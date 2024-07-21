@@ -15,7 +15,7 @@ public:
         
         int i0 = i, cnt0 = cnt;
         
-        while(i + 1 <= j && boxes[i] == boxes[i+1]) i++, cnt++;
+        while(i + 1 <= j && boxes[i] == boxes[i+1]) {i++; cnt++;}
         
         int ans = (cnt+1) * (cnt+1) + solve(boxes, i+1, j, 0);
         
