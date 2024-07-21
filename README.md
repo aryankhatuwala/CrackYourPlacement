@@ -125,4 +125,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
