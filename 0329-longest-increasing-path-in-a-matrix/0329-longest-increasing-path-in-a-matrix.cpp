@@ -53,7 +53,7 @@ public:
 
                ans=max(ans, dfs(newR, newC, matrix,n,m,dp));
         }
-        return dp[i][j]=ans+1;
+        return dp[i][j]=1+ans;
     }
     int longestIncreasingPath(vector<vector<int>>& matrix) {
         int n=matrix.size();
