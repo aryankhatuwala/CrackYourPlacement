@@ -1,23 +1,27 @@
-int dp[101][101][101];
 class Solution {
 public:
-    int rec(int l,int r,int cnt,vector<int>& boxes){
-        if(l>r)return 0;
+    int func(int i, int j,int count, vector<int>& boxes,
+    vector<vector<vector<int>>>&dp)
+    {
+        if(i>j) return 0;
+        
+        if(dp[i][j][count]!=-1) return dp[i][j][count];
 
-        if(dp[l][r][cnt]!=-1) return dp[l][r][cnt];
-
-        int ans=(cnt+1)*(cnt+1) + rec(l+1,r,0,boxes);
-
-        for(int m=l+1;m<=r;m++)
+        int ans=(count+1)*(count+1) + func(i+1,j,0,boxes,dp); //taken as single element
+        for(int k=i+1;k<=j;k++)
         {
-            if(boxes[m]==boxes[l])
-                ans=max(ans,rec(l+1,m-1,0,boxes)+rec(m,r,cnt+1,boxes));
-            
+            if(boxes[i]==boxes[k])
+            {
+                ans=max(ans, func(i+1,k-1,0,boxes,dp)+ func(k,j,count+1,boxes,dp));
+                //1st func to remove the elements in between and 
+                //2nd func to make a streak with the kth element
+            }
         }
-        return dp[l][r][cnt]=ans;
+        return dp[i][j][count]=ans;
     }
     int removeBoxes(vector<int>& boxes) {
-        memset(dp,-1,sizeof(dp));
-        return rec(0,boxes.size()-1,0,boxes);
+        int n=boxes.size();
+        vector<vector<vector<int>>>dp (n+1,vector<vector<int>>(n+1,vector<int>(n+1,-1)));
+        return func(0,n-1,0,boxes,dp);
     }
 };
