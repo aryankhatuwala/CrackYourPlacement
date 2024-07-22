@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 ## Bit Manipulation
 |  |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
 ## Stack
 |  |
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0617-merge-two-binary-trees) |
@@ -174,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0617-merge-two-binary-trees) |
