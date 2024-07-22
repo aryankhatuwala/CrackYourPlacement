@@ -18,12 +18,13 @@ public:
         if(!root1 and !root2) return nullptr;
 
         int sum=root1->val+root2->val;
-        TreeNode* temp=new TreeNode(sum);
+        // TreeNode* temp=new TreeNode(sum);
+        root1->val=sum;
 
-        temp->left=func(root1->left, root2->left);
-        temp->right=func(root1->right, root2->right);
+        root1->left=func(root1->left, root2->left);
+        root1->right=func(root1->right, root2->right);
 
-        return temp;
+        return root1;
     }
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
         return func(root1, root2);
