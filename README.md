@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
+| [0975-range-sum-of-bst](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 ## Union Find
 |  |
@@ -154,14 +155,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
+| [0975-range-sum-of-bst](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0975-range-sum-of-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
+| [0975-range-sum-of-bst](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0975-range-sum-of-bst) |
 ## Hash Function
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0975-range-sum-of-bst](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0975-range-sum-of-bst) |
 <!---LeetCode Topics End-->
