@@ -13,7 +13,7 @@ class Solution {
 public:
     void func(TreeNode* root, string str, vector<string>&ans)
     {
-        if(!root) return;
+        // if(!root) return;
         if(!root->left and !root->right)
         {
             str+= to_string(root->val);
