@@ -5,7 +5,7 @@ public:
         int n=haystack.size(), m=needle.size();
         int h_hash,n_hash; 
         h_hash=n_hash=0;
-        int mod=101;
+        int mod=11;
         int d=10;
         for(int i=0;i<m;i++)
         {
