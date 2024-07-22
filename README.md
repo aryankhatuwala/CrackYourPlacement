@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0684-redundant-connection](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0684-redundant-connection) |
@@ -147,9 +149,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
