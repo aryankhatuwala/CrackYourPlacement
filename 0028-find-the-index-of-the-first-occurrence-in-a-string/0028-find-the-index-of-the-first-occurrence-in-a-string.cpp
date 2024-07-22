@@ -1,40 +1,51 @@
 class Solution {
 public:
+    void findLps(string str, vector<int>&lps)
+    {
+        int i=0,j=1;
+        lps[0]=0;
+        while(i<str.size() and j<str.size())
+        {
+            if(str[i]==str[j])
+            {
+                lps[j]=i+1;
+                i++;j++;
+            }
+            else
+            {
+                if(i==0)
+                {
+                    lps[j]=0; j++; 
+                }
+                else 
+                i=lps[i-1];
+            }
+
+        }
+    }
     int strStr(string haystack, string needle) {
         
         int n=haystack.size(), m=needle.size();
-        int h_hash,n_hash; 
-        h_hash=n_hash=0;
-        int mod=11;
-        int d=10;
-        for(int i=0;i<m;i++)
+        int i=0,j=0;
+        vector<int>lps(m);
+        findLps(needle,lps);
+        while(i<n)
         {
-            h_hash=(h_hash*d+haystack[i]-'a'+1)%mod;
-            n_hash=(n_hash*d+needle[i]-'a'+1)%mod;
-        }
-        cout<<n_hash<<" ";
-        int q=1;
-        for(int i=0;i<m-1;i++) q=(q*d)%mod;
+            if(haystack[i]==needle[j])
+            {
+                i++; j++;
+            }
+            if(j==m)
+            return i-m;
 
-        for(int i=0;i<= n-m;i++)
-        {
-           if(h_hash==n_hash)
-           {
-              int flag=true; 
-              for(int j=0;j<m;j++)
-              {
-                if(haystack[i+j]!=needle[j]) flag=false;
-              }
-              if(flag) return i;
-           }
-           else if(i<n-m)
-           {
-             h_hash=((h_hash-(haystack[i]-'a'+1)*q)*d + haystack[i+m]-'a'+1)%mod;
-             if(h_hash<0)
-             h_hash+=mod;
-            cout<<h_hash<<" ";
-           }
+            else if(haystack[i]!=needle[j] and i<n)
+            {
+                if(j==0) i++;
+                else
+                 j=lps[j-1];
+            }
         }
         return -1;
+
     }
 };
