@@ -13,13 +13,14 @@ public:
     TreeNode* func(TreeNode* root, TreeNode* p, TreeNode* q)
     {
         if(!root) return nullptr;
-        if(root==p or root==q) return root;
+        if(p->val <=root->val and q->val>=root->val) return root;
+        if(p->val >=root->val and q->val<=root->val) return root;
 
         auto lefti=func(root->left,p,q);
-        auto righti=func(root->right,p,q);
-        if(lefti and righti) return root;
         if(lefti) return lefti;
+        auto righti=func(root->right,p,q);
         return righti;
+        
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         return func(root,p,q);
