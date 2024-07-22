@@ -19,11 +19,12 @@ public:
 
         if(!root or !subRoot) return root==nullptr and subRoot==nullptr;
         
-        if (root->val == subRoot->val) {
-        bool one = isSubTree(root->left, subRoot->left);
-        bool two = isSubTree(root->right, subRoot->right);
-        return one && two;
-    }
+        if(root->val == subRoot->val)
+        {
+            bool one=isSubTree(root->left, subRoot->left);
+            bool two=isSubTree(root->right, subRoot->right);
+            return one && two;
+        }
         return false;
 
     }
