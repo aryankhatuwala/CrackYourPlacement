@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
+| [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
+| [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 ## String Matching
 |  |
 | ------- |
@@ -207,4 +209,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
