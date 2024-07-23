@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0937-online-stock-span) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 ## String Matching
 |  |
@@ -217,5 +218,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0937-online-stock-span) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
+## Design
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
