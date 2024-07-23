@@ -16,7 +16,7 @@ class Solution
             return 0;
 
         int ans = INT_MAX, a, b, temp;
-        a = b = temp = 0;
+        
         if (dp[l][h] != -1) return dp[l][h];
 
         for (int i = l; i < h; i++)
