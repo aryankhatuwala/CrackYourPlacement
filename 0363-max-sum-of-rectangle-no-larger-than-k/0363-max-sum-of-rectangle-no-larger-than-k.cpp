@@ -30,7 +30,6 @@ public:
                 cur[k]+=matrix[j][k];
                 ans=max(ans,func(cur,limit));
             }
-           
         }
         return ans;
     }
