@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
+| [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2472-build-a-matrix-with-conditions](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2472-build-a-matrix-with-conditions) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
+| [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Hash Table
 |  |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Matrix
 |  |
@@ -162,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
+| [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 ## String Matching
 |  |
 | ------- |
@@ -213,4 +217,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
+| [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 <!---LeetCode Topics End-->
