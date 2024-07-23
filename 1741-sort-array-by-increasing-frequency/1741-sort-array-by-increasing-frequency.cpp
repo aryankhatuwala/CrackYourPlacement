@@ -11,7 +11,7 @@ public:
 
         vector<pair<int,int>>arr;
         for(auto it:mp)
-        arr.push_back(it);
+        arr.push_back({it.first, it.second});
 
         sort(arr.begin(),arr.end(),cmp);
 
