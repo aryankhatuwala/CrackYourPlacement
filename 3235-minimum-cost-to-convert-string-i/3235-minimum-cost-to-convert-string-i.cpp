@@ -9,7 +9,7 @@ public:
 
         for(int i=0;i<n;i++)
         {
-            mat[original[i]-'a'][changed[i]-'a']=
+            mat[original[i]-'a'][changed[i]-'a']= 
             min( mat[original[i]-'a'][changed[i]-'a'], cost[i]);
         }
 
