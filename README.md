@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
+| [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0403-frog-jump](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0403-frog-jump) |
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
+| [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0001-two-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
