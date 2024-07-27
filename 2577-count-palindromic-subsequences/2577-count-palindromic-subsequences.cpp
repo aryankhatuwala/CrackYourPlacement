@@ -12,15 +12,15 @@ public:
         if(dp[idx][first][second][cnt] != -1) return dp[idx][first][second][cnt];
         
         long long inc = 0, exc = 0, val = s[idx]-'0';
-        if(cnt == 0){
+        if(cnt == 0)
             inc += solve(s, idx+1, val, second, cnt+1); 
-        }
-        else if(cnt == 1){
+        
+        else if(cnt == 1)
             inc += solve(s, idx+1, first, val, cnt+1); 
-        }
-        else if(cnt == 2){
+        
+        else if(cnt == 2)
             inc += solve(s, idx+1, first, second, cnt+1); 
-        }
+        
         else if(cnt == 3){
             if(val == second) inc += solve(s, idx+1, first, second, cnt+1); 
         }
