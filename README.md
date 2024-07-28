@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0403-frog-jump](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0403-frog-jump) |
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0287-find-the-duplicate-number) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Sorting
 |  |
 | ------- |
@@ -237,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -290,4 +294,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
+## Sliding Window
+|  |
+| ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
+## Rolling Hash
+|  |
+| ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
 <!---LeetCode Topics End-->
