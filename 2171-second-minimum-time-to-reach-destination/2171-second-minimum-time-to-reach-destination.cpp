@@ -2,7 +2,7 @@ class Solution {
 public:
     int secondMinimum(int n, vector<vector<int>>& edges, int time, int change) {
         // Create the graph using an unordered_map of lists
-        unordered_map<int, list<int>> g;
+        vector<int>g[n+1];
         for (const auto& e : edges) {
             int u = e[0], v = e[1];
             g[u].push_back(v);
