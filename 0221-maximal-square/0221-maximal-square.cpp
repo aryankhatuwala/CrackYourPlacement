@@ -12,6 +12,7 @@ public:
             {
                 if(i==0 or j==0) {
                     mat[i][j]=matrix[i][j]-'0';
+                    ans=max(ans,mat[i][j]);
                     continue;
                 }
 
@@ -23,15 +24,7 @@ public:
                 ans=max(ans,mat[i][j]);
             }
         }
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<m;j++)
-            {
-                cout<<mat[i][j]<<" ";
-                ans=max(ans,mat[i][j]);
-            }
-            cout<<endl;
-        }
+        
         return ans*ans;
     }
 };
