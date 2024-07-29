@@ -1,5 +1,4 @@
-SELECT 
-    IFNULL(
+SELECT  IFNULL(
         (SELECT DISTINCT salary 
          FROM employee 
          ORDER BY salary DESC 
