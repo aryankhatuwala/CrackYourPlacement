@@ -7,7 +7,7 @@ public:
         vector<int> increasing(n, 0), decreasing(n, 0);
 
         // Fill increasing array
-        for (int i = 1; i < n; ++i) {
+        for (int i = 0; i < n; ++i) {
             for (int j = 0; j < i; ++j) {
                 if (rating[j] < rating[i]) {
                     increasing[i]++;
@@ -16,7 +16,7 @@ public:
         }
 
         // Fill decreasing array
-        for (int i = 1; i < n; ++i) {
+        for (int i = 0; i < n; ++i) {
             for (int j = 0; j < i; ++j) {
                 if (rating[j] > rating[i]) {
                     decreasing[i]++;
@@ -27,7 +27,7 @@ public:
         int teams = 0;
 
         // Count valid teams
-        for (int i = 1; i < n - 1; ++i) {
+        for (int i = 0; i < n - 1; ++i) {
             int inc = 0, dec = 0;
             for (int j = i + 1; j < n; ++j) {
                 if (rating[i] < rating[j]) {
