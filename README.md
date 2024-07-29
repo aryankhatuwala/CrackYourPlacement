@@ -308,4 +308,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1511-count-number-of-teams) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
