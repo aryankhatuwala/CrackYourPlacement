@@ -1,45 +1,29 @@
 class Solution {
 public:
+    int dp[1002][1002][4];
+    int func(int cur, int prev, int count, vector<int>&rating,int n)
+    {
+        if(count==3) return 1;
+        if(cur==n) return 0;
+        if(dp[cur][prev+1][count]!=-1) return dp[cur][prev+1][count];
+        
+        int inc, notinc;
+        inc=0;
+        notinc=func(cur+1,prev, count, rating,n);
+        if(prev==-1 || rating[cur]>rating[prev])
+        {
+            inc=func(cur+1,cur,count+1,rating,n);
+        }
+        return dp[cur][prev+1][count]=inc+notinc;
+    }
     int numTeams(vector<int>& rating) {
-        int n = rating.size();
-        if (n < 3) return 0;
+        memset(dp,-1,sizeof(dp));
+        int n=rating.size();
 
-        vector<int> increasing(n, 0), decreasing(n, 0);
-
-        // Fill increasing array
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (rating[j] < rating[i]) {
-                    increasing[i]++;
-                }
-            }
-        }
-
-        // Fill decreasing array
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (rating[j] > rating[i]) {
-                    decreasing[i]++;
-                }
-            }
-        }
-
-        int teams = 0;
-
-        // Count valid teams
-        for (int i = 0; i < n - 1; ++i) {
-            int inc = 0, dec = 0;
-            for (int j = i + 1; j < n; ++j) {
-                if (rating[i] < rating[j]) {
-                    inc++;
-                }
-                if (rating[i] > rating[j]) {
-                    dec++;
-                }
-            }
-            teams += increasing[i] * inc + decreasing[i] * dec;
-        }
-
-        return teams;
+        int ans1=func(0,-1,0,rating,n);
+        reverse(rating.begin(),rating.end());
+        memset(dp,-1,sizeof(dp));
+        int ans2=func(0,-1,0,rating,n);
+        return ans1+ans2;
     }
 };
