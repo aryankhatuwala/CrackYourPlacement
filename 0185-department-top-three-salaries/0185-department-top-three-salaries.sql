@@ -1,10 +1,8 @@
-with func as
-(select d.name depName, e.name empName, e.salary empSal, e.departmentId depId,
-dense_rank() over(partition by e.departmentId order by e.salary desc) as empRank
-from employee e join department d on e.departmentId=d.id)
-
-select depName Department, empName Employee, empSal Salary
-from func
-where empRank <=3;
-
--- select * from func;
+select d.Name Department, e1.Name Employee, e1.Salary
+from Employee e1  join Department d
+on e1.DepartmentId = d.Id
+where (select count(distinct(e2.Salary)) 
+                  from Employee e2 
+                  where e2.Salary > e1.Salary 
+                  and e1.DepartmentId = e2.DepartmentId
+                  ) <3;
