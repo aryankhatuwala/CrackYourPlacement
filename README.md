@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1511-count-number-of-teams) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2577-count-palindromic-subsequences](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2577-count-palindromic-subsequences) |
 ## Hash Table
 |  |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
 | [2577-count-palindromic-subsequences](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2577-count-palindromic-subsequences) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0937-online-stock-span) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## String Matching
 |  |
 | ------- |
