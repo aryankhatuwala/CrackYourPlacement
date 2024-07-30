@@ -4,25 +4,21 @@ class Solution {
             int rightA = 0;
             int leftB = 0;
 
-
             for (int i=0; i<s.length(); i++){
-                if (s[i] == 'a'){
+                if (s[i] == 'a')
                     rightA += 1;
-                }
             }
 
             int deleteCount = leftB + rightA;
 
-            for (int i=0; i<s.length(); i++){
-                if (s[i] == 'a') {
+            for (int i=0; i<s.length(); i++)
+            {
+                if (s[i] == 'a') 
                     rightA -= 1;
-                } else {
+                else 
                     leftB += 1;
-                }
                 
-               
                 deleteCount = min(deleteCount, leftB + rightA);
-
             }
             return deleteCount;
         }
