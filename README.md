@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1333-sort-the-jumbled-numbers](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1333-sort-the-jumbled-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1511-count-number-of-teams](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1511-count-number-of-teams) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Rolling Hash
 |  |
@@ -334,4 +337,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0262-trips-and-users](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0262-trips-and-users) |
 | [0584-find-customer-referee](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0584-find-customer-referee) |
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0586-customer-placing-the-largest-number-of-orders) |
+## Math
+|  |
+| ------- |
+| [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
