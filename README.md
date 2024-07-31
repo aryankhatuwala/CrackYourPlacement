@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
 ## Two Pointers
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
 | [2577-count-palindromic-subsequences](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2577-count-palindromic-subsequences) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Rolling Hash
 |  |
 | ------- |
