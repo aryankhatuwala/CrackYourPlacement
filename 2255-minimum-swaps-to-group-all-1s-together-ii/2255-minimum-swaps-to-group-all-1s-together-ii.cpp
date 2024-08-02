@@ -11,7 +11,7 @@ public:
         for(int i=0;i<ones;i++) if(nums[i]==0) bad++;
 
         int ans=bad;
-        for(int i=ones;i<n+n;i++)
+        for(int i=ones;i<n+ones;i++)
         {
            if(nums[(i-ones)%n]==0) bad--;
            if(nums[i%n]==0) bad++;
