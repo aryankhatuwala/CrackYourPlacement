@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1511-count-number-of-teams](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1511-count-number-of-teams) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
 ## Two Pointers
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1333-sort-the-jumbled-numbers) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2502-sort-the-people) |
