@@ -11,7 +11,7 @@ public:
 
         for(int i=0;i<n;i++) count[word[i]-'a']++;
 
-        sort(count.begin(),count.end(),cmp);
+        sort(count.begin(),count.end(),greater<int>());
         int k=2, ans=0;
         for(int i=0;i<count.size();i++)
         {
