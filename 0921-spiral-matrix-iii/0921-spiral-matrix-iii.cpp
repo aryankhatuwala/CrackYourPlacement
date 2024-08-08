@@ -18,7 +18,7 @@ public:
                     result.push_back({rStart, cStart});
                 
                 
-                // if (result.size() == rows * cols) return result;
+                if (result.size() == rows * cols) return result;
             } 
             d = (d + 1) % 4;
         }
