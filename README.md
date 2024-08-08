@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
+| [0921-spiral-matrix-iii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
+| [0921-spiral-matrix-iii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0921-spiral-matrix-iii) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -361,4 +363,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
+## Simulation
+|  |
+| ------- |
+| [0921-spiral-matrix-iii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0921-spiral-matrix-iii) |
 <!---LeetCode Topics End-->
