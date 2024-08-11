@@ -1,24 +1,26 @@
 class Solution {
-public: 
+public:
     int func(vector<int>&arr, int k)
     {
+        int ans=INT_MIN;
+        int sum=0, n=arr.size();
         map<int,int>mp;
-        int sum=0, n=arr.size(), maxi=INT_MIN;
         mp[0]=1;
         for(int i=0;i<n;i++)
         {
             sum+=arr[i];
             int need=sum-k;
-            auto lb= mp.lower_bound(need);
+            auto lb=mp.lower_bound(need);
 
             if(lb!=mp.end())
-             maxi=max(maxi, sum- lb->first);
+            ans=max(ans, sum-lb->first);
 
             mp[sum]++;
         }
-        return maxi;
+        return ans;
     }
-    int maxSumSubmatrix(vector<vector<int>>& matrix, int limit) {
+    int maxSumSubmatrix(vector<vector<int>>& matrix, int k) {
+        
         int n=matrix.size(), m=matrix[0].size();
         int ans=INT_MIN;
         for(int i=0;i<n;i++)
@@ -27,8 +29,10 @@ public:
             for(int j=i;j<n;j++)
             {
                 for(int k=0;k<m;k++)
-                cur[k]+=matrix[j][k];
-                ans=max(ans,func(cur,limit));
+                {
+                   cur[k]+=matrix[j][k];
+                }
+                ans=max(ans, func(cur,k));
             }
         }
         return ans;
