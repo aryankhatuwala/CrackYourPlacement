@@ -1,8 +1,4 @@
-select s.name
-from SalesPerson s
-where s.name not in
-    (select s.name
-    from SalesPerson s
-        left join Orders o on s.sales_id = o.sales_id
-        left join Company c on o.com_id = c.com_id
-    where c.name = 'Red')
+select salesperson.name
+from orders o join company c on (o.com_id = c.com_id and c.name = 'RED')
+right join salesperson on salesperson.sales_id = o.sales_id
+where o.sales_id is null
