@@ -1,9 +1,8 @@
-SELECT DISTINCT p.product_id, p.product_name
-FROM product p
-JOIN sales s ON p.product_id = s.product_id
-WHERE s.sale_date 
-AND p.product_id NOT IN (
-    SELECT DISTINCT product_id
-    FROM sales
-    WHERE sale_date NOT BETWEEN '2019-01-01' AND '2019-03-31'
-);
+# Write your MySQL query statement below
+select distinct p.product_id, p.product_name
+from product p inner join sales s 
+on p.product_id=s.product_id
+where p.product_id not in (
+    select product_id from sales
+    where sale_date not between '2019-01-01' and '2019-03-31'
+)
