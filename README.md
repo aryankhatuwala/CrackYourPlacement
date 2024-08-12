@@ -387,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1258-article-views-i](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1258-article-views-i) |
 | [1268-market-analysis-i](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1268-market-analysis-i) |
 | [1301-reformat-department-table](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1301-reformat-department-table) |
+| [1523-capital-gainloss](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1523-capital-gainloss) |
 ## Math
 |  |
 | ------- |
