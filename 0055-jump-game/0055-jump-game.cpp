@@ -9,6 +9,8 @@ public:
         bool ans=false;
         for(int k=1;k<=nums[ind];k++)
         {
+            if(ind+k>=n) break;
+
             ans|= func(ind+k,nums,n,dp);
         }
         return dp[ind]=ans;
@@ -17,7 +19,7 @@ public:
         
         int n=nums.size();
         vector<int>dp(n,-1);
-        // return func(0,nums,n,dp);
+        return func(0,nums,n,dp);
 
         vector<bool>dp2(n+1,false);
         dp2[n-1]=true;
@@ -28,7 +30,7 @@ public:
             {
                 if(i+k<n)
                 ans|=dp2[i+k];
-                
+
                 if(i+k>=n) break;
             }
             dp2[i]=ans;
