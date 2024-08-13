@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0055-jump-game](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0055-jump-game) |
 | [0075-sort-colors](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0221-maximal-square](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0300-longest-increasing-subsequence) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0055-jump-game) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
