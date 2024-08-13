@@ -21,20 +21,20 @@ public:
         vector<int>dp(n,-1);
         return func(0,nums,n,dp);
 
-        vector<bool>dp2(n+1,false);
-        dp2[n-1]=true;
-        for(int i=n-2;i>=0;i--)
-        {
-            bool ans=false;
-            for(int k=1;k<=nums[i];k++)
-            {
-                if(i+k<n)
-                ans|=dp2[i+k];
+        // vector<bool>dp2(n+1,false);
+        // dp2[n-1]=true;
+        // for(int i=n-2;i>=0;i--)
+        // {
+        //     bool ans=false;
+        //     for(int k=1;k<=nums[i];k++)
+        //     {
+        //         if(i+k<n)
+        //         ans|=dp2[i+k];
 
-                if(i+k>=n) break;
-            }
-            dp2[i]=ans;
-        }
-        return dp2[0];
+        //         if(i+k>=n) break;
+        //     }
+        //     dp2[i]=ans;
+        // }
+        // return dp2[0];
     }
 };
