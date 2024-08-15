@@ -17,18 +17,20 @@ public:
         sort(nums.begin(), nums.end());
         int n = nums.size();
         int left = 0, right = nums[n-1] - nums[0];
-
-        while (left < right)   //binary search
+         int ans=-1;
+        while (left <= right)   //binary search
         {
             int mid = left + (right - left) / 2;
             int count=countPairs(mid, nums);
             if (count < k) 
                 left = mid + 1;
-            else
-                right = mid;
+            else{
+                ans=mid;
+                right = mid-1;
+            }
             
         }
-        return left;
+        return ans;
     }
 
 };
