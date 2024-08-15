@@ -8,7 +8,7 @@ private:
             return false;
         
         char temp = board[row][col];
-        board[row][col] = '*';
+        board[row][col] = '*';  //so that we do not take the same box again in our ans
 
         bool ans1 = checkWordPresent(board, word, n, m, row+1, col, index+1);
         bool ans2 = checkWordPresent(board, word, n, m, row, col+1, index+1);
@@ -17,7 +17,7 @@ private:
 
         board[row][col] = temp;
     
-        return ans1 || ans2 || ans3 || ans4;
+        return ans1 | ans2 | ans3 | ans4;
     }
 public:
     bool exist(vector<vector<char>>& board, string word) {
