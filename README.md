@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0169-majority-element) |
 | [0221-maximal-square](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0221-maximal-square) |
 | [0283-move-zeroes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0287-find-the-duplicate-number) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0169-majority-element) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0870-magic-squares-in-grid](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0870-magic-squares-in-grid) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0169-majority-element) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
@@ -307,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0169-majority-element) |
 | [0493-reverse-pairs](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
 ## Monotonic Stack
@@ -356,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
