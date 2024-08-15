@@ -2,12 +2,12 @@ class Solution {
 public:
     int countPairs(int mid, const vector<int>& nums) {
         int count = 0;
-        int j = 0;
-        for (int i = 0; i < nums.size(); ++i) {
-            while (j < nums.size() && nums[j] - nums[i] <= mid) {
-                ++j;
+        int start = 0;
+        for (int end = 0; end < nums.size(); ++end) {
+            while (start < nums.size() && nums[start] - nums[end] <= mid) {
+                ++start;
             }
-            count += j-i-1;
+            count += start-end-1;
         }
         return count;
     }
