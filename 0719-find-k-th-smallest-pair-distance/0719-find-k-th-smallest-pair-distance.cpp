@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int countPairs(int mid, const vector<int>& nums) {
+    int countPairs(int mid, vector<int>& nums) {
         int count = 0;
         int start = 0;
         for (int end = 0; end < nums.size(); ++end) {
