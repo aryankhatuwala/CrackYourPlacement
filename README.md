@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0740-delete-and-earn) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0870-magic-squares-in-grid) |
+| [0890-lemonade-change](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0890-lemonade-change) |
 | [0921-spiral-matrix-iii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
 | [1117-as-far-from-land-as-possible](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1117-as-far-from-land-as-possible) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0055-jump-game) |
+| [0890-lemonade-change](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0890-lemonade-change) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
