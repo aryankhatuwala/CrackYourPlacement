@@ -2,12 +2,14 @@ class Solution {
 public:
     int countPairs(int mid, vector<int>& nums) {
         int count = 0;
-        int start = 0;
-        for (int end = 0; end < nums.size(); ++end) {
-            while (start < nums.size() && nums[start] - nums[end] <= mid) {
-                ++start;
-            }
-            count += start-end-1;
+        int start = 0, end=1, n=nums.size();
+        while(end<n)
+        {
+           while(start<end and nums[end]-nums[start]>mid)
+           start++;
+
+           count+= end-start;
+           end++;
         }
         return count;
     }
@@ -19,13 +21,13 @@ public:
         while (left < right)   //binary search
         {
             int mid = left + (right - left) / 2;
-            if (countPairs(mid, nums) < k) {
+            int count=countPairs(mid, nums);
+            if (count < k) 
                 left = mid + 1;
-            } else {
+            else
                 right = mid;
-            }
+            
         }
-        
         return left;
     }
 
