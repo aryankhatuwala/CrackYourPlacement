@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0067-add-binary) |
 | [0287-find-the-duplicate-number](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0287-find-the-duplicate-number) |
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 ## Bitmask
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0067-add-binary](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0067-add-binary) |
 | [0079-word-search](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0079-word-search) |
 | [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [0273-integer-to-english-words](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0273-integer-to-english-words) |
@@ -428,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0067-add-binary) |
 | [0273-integer-to-english-words](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0273-integer-to-english-words) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0870-magic-squares-in-grid](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0870-magic-squares-in-grid) |
@@ -435,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0067-add-binary) |
 | [0289-game-of-life](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0289-game-of-life) |
 | [0921-spiral-matrix-iii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0921-spiral-matrix-iii) |
 ## Recursion
