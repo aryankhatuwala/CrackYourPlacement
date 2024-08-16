@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0067-add-binary](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0067-add-binary) |
 | [0079-word-search](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0079-word-search) |
+| [0168-excel-sheet-column-title](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0168-excel-sheet-column-title) |
 | [0257-binary-tree-paths](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0257-binary-tree-paths) |
 | [0273-integer-to-english-words](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0273-integer-to-english-words) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -433,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0067-add-binary) |
+| [0168-excel-sheet-column-title](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0168-excel-sheet-column-title) |
 | [0273-integer-to-english-words](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0273-integer-to-english-words) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0628-maximum-product-of-three-numbers) |
