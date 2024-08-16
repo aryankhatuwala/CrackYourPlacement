@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0403-frog-jump](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0403-frog-jump) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0493-reverse-pairs](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0493-reverse-pairs) |
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0169-majority-element) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0948-sort-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0948-sort-an-array) |
@@ -427,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0273-integer-to-english-words) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0870-magic-squares-in-grid](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0870-magic-squares-in-grid) |
 | [1370-count-number-of-nice-subarrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1370-count-number-of-nice-subarrays) |
 ## Simulation
