@@ -1,31 +1,25 @@
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
-        vector<int> ans;
-        ListNode* h = head;
-        int count = 1;
+        if (!head || left == right) return head;
         
-        // Collect values from the sublist defined by 'left' to 'right'
-        while (head && count <= right) {
-            if (count >= left) {
-                ans.push_back(head->val);
-            }
-            head = head->next;
-            count++;
+        ListNode dummy(0);
+        dummy.next = head;
+        ListNode* prev = &dummy;
+        
+        for (int i = 0; i < left - 1; ++i) {
+            prev = prev->next;
         }
-
-        // Reverse the sublist values in the original list
-        head = h;
-        count = 1;
-        int k = ans.size() - 1;
-        while (head && count <= right) {
-            if (count >= left) {
-                head->val = ans[k--];
-            }
-            head = head->next;
-            count++;
+        
+        ListNode* current = prev->next;
+        
+        for (int i = 0; i < right - left; ++i) {
+            ListNode* next_node = current->next;
+            current->next = next_node->next;
+            next_node->next = prev->next;
+            prev->next = next_node;
         }
-
-        return h;
+        
+        return dummy.next;
     }
 };
