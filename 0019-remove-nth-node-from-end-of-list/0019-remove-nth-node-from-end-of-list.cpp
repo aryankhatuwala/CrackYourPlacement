@@ -1,3 +1,4 @@
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -11,28 +12,28 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode* fast = head;
+        ListNode* slow = head;
         
-        ListNode* h=head, *h2=head;
-         
-        for(int i=0;i<n;i++)
-        {
-            h=h->next;
-        }
-        if(!h) return head->next;
-        
-        while(h->next){
-        h2=h2->next;
-        h=h->next;
+        // Move the fast pointer n positions ahead
+        for (int i = 0; i < n; i++) {
+            fast = fast->next;
         }
         
-        cout<<h2->val;
-        if(h2->next){
-            ListNode* temp=h2->next;
-            h2->next=h2->next->next;
-            delete temp;
-            }
-
+        // Handle the case when the first element is to be removed
+        if (fast == NULL) {
+            return head->next;
+        }
+        
+        // Move both pointers until the fast pointer reaches the end
+        while (fast->next) {
+            fast = fast->next;
+            slow = slow->next;
+        }
+        
+        // Remove the nth node from the end
+        slow->next = slow->next->next;
+        
         return head;
-
     }
 };
