@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0526-beautiful-arrangement](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0526-beautiful-arrangement) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0546-remove-boxes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0546-remove-boxes) |
+| [0624-maximum-distance-in-arrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0624-maximum-distance-in-arrays) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0055-jump-game) |
+| [0624-maximum-distance-in-arrays](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0890-lemonade-change) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
