@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2472-build-a-matrix-with-conditions](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2472-build-a-matrix-with-conditions) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1511-count-number-of-teams) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2577-count-palindromic-subsequences](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/2577-count-palindromic-subsequences) |
 ## Hash Table
 |  |
