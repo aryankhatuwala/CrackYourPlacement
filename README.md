@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0617-merge-two-binary-trees) |
 | [0684-redundant-connection](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0684-redundant-connection) |
+| [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0854-making-a-large-island](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0854-making-a-large-island) |
 | [0975-range-sum-of-bst](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0975-range-sum-of-bst) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -478,4 +479,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0092-reverse-linked-list-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0092-reverse-linked-list-ii) |
 | [0143-reorder-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0143-reorder-list) |
+| [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 <!---LeetCode Topics End-->
