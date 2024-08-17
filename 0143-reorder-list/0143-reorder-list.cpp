@@ -1,50 +1,21 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        ListNode* dum=new ListNode(0);
-        dum->next=head;
-        ListNode* slow=dum, *fast=dum;
+        helper(head);
+    }
 
-        while(fast and fast->next)  //find middle
-        {
-            slow=slow->next;
-            fast=fast->next->next;
+    ListNode* helper(ListNode* head) {
+        if (head == nullptr || head->next == nullptr) return head;
+        ListNode* last = head;
+        ListNode* prev = head;
+        while (last->next != nullptr) {
+            prev = last;
+            last = last->next;
         }
-        //reverse second half;
-        ListNode* prev=nullptr, *cur=slow->next;
-        slow->next=nullptr;
-        while(cur)
-        {
-            ListNode* next=cur->next;
-            cur->next=prev;
-            prev=cur;
-            cur=next;
-        }
-
-        //merge the two halves
-        ListNode* first=dum->next, *second=prev;
-        if(first)
-        cout<<first->val;
-        if(second) cout<<second->val;
-        while(first and second)
-        {
-            ListNode* sec_next=second->next;
-            ListNode* first_next=first->next;
-            second->next=first->next;
-            first->next=second;
-            first=first_next;
-            second=sec_next;
-        }
-
+        prev->next = nullptr;
+        ListNode* next = head->next;
+        head->next = last;
+        last->next = helper(next);
+        return head;
     }
 };
