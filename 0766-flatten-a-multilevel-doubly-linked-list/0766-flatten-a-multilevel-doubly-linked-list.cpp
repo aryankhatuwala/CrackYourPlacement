@@ -27,13 +27,9 @@ public:
                 front->prev=temp2;
                 temp2->next=front;
                 }
-
-                temp=temp->next;
-
             }
-            else{
-                temp=temp->next;
-            }
+            temp=temp->next;
+            
         }
         return head;
     }
