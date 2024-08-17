@@ -1,42 +1,36 @@
-//97-ms
 class Solution {
 public:
-
-    long long maxPoints(vector<vector<int>>& grid) {
-        const int width = grid[0].size();
-        vector<long long> current(width), previous(width);
-        long long maxScore = 0;
-
-        for (const auto& level : grid) {
-            long long peak = 0;
-            // Forward sweep
-            for (int i = 0; i < width; ++i) {
-                peak = max(peak - 1, previous[i]);
-                current[i] = peak;
-            }
-            peak = 0;
-            // Backward sweep
-            for (int i = width - 1; i >= 0; --i) {
-                peak = max(peak - 1, previous[i]);
-                current[i] = max(current[i], peak) + level[i];
-            }
-            previous.swap(current);
+    long long maxPoints(vector<vector<int>>& points) {
+        int row = points.size();
+        if(row == 0) {
+            // emtpy array
+            return 0;
         }
 
-        // Compute final result
-        maxScore = *max_element(previous.begin(), previous.end());
-        return maxScore;
+        int m = points[0].size();
+
+        vector<long long> dp(points[0].begin(), points[0].end());
+        vector<long long> left(m);
+        vector<long long> right(m);
+
+        for(int i=1; i<row; i++) 
+        {
+            left.front() = dp.front();
+            for(int j=1; j<m; j++) 
+                // left[j-1]-1, the minus 1 counts the shift
+                left[j] = max(dp[j], left[j-1]-1); 
+            
+
+            right.back() = dp.back();
+            for(int j=m-2; j>=0; j--) 
+                right[j] =  max(dp[j], right[j+1]-1);
+            
+
+            for (int j=0; j<m; j++) 
+                dp[j] = points[i][j] + max(left[j], right[j]);
+            
+        }
+
+        return *max_element(dp.begin(), dp.end());
     }
 };
-
-
-
-static const auto speedup = []() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    std::cout.tie(nullptr);
-    return 0;
-}();
-
-
-//https://leetcode.com/problems/maximum-number-of-points-with-cost/submissions/1357876927/
