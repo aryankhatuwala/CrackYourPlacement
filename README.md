@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0075-sort-colors) |
+| [0086-partition-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0088-merge-sorted-array) |
 | [0143-reorder-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0143-reorder-list) |
 | [0283-move-zeroes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0283-move-zeroes) |
@@ -477,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0086-partition-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0092-reverse-linked-list-ii) |
 | [0143-reorder-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0143-reorder-list) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
