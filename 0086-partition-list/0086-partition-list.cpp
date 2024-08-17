@@ -1,7 +1,7 @@
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        ListNode before(0), after(0);
+        ListNode before(0), after(0); //objects of type ListNode
         ListNode* before_curr = &before;
         ListNode* after_curr = &after;
         
