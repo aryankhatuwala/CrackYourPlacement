@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0088-merge-sorted-array) |
+| [0143-reorder-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0143-reorder-list) |
 | [0283-move-zeroes](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0287-find-the-duplicate-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0020-valid-parentheses) |
+| [0143-reorder-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0143-reorder-list) |
 | [0739-daily-temperatures](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0937-online-stock-span) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/1228-minimum-cost-tree-from-leaf-values) |
@@ -452,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0143-reorder-list) |
 | [0273-integer-to-english-words](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0273-integer-to-english-words) |
 ## Strongly Connected Component
 |  |
@@ -474,4 +477,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0092-reverse-linked-list-ii](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0092-reverse-linked-list-ii) |
+| [0143-reorder-list](https://github.com/aryankhatuwala/CrackYourPlacement/tree/master/0143-reorder-list) |
 <!---LeetCode Topics End-->
