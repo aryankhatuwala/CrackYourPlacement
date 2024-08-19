@@ -3,7 +3,6 @@ public:
     int func(int lastCopy, int leng,int pasteEnable, int n)
     {
         if(leng == n) return 0;
-        // if(lastCopy + leng >n) return INT_MAX/2;
 
         int copyPaste,paste;
         copyPaste=paste=INT_MAX/2;
