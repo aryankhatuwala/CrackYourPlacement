@@ -3,14 +3,14 @@ public:
     int func(int lastCopy, int leng,int pasteEnable, int n)
     {
         if(leng == n) return 0;
-        if (lastCopy + leng>n ) return INT_MAX/2;
-        // if(lastCopy>n) return 3000;
+        if(lastCopy + leng >n) return INT_MAX/2;
+        // if(lastCopy>n/2 || leng>n/2) return INT_MAX/2;
 
         int copyPaste,paste;
         copyPaste=paste=INT_MAX;
         
         if(leng+leng<=n)
-        copyPaste=2+func(leng,leng+leng,1,n); //copy
+        copyPaste=2+func(leng,leng+leng,1,n); 
 
         if(pasteEnable==1 and leng+lastCopy<=n)
         paste=1+func(lastCopy, leng+lastCopy,1, n);
